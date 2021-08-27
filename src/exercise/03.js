@@ -44,7 +44,7 @@ function App() {
   return (
     <div>
       <Toggle>
-        <ToggleOn>The button is on</ToggleOn>
+        <ToggleOn>The button is onnn</ToggleOn>
         <ToggleOff>The button is off</ToggleOff>
         <div>
           <ToggleButton />
