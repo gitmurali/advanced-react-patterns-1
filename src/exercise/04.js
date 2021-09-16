@@ -10,7 +10,7 @@ function useToggle() {
 
   function getTogglerProps({onClick, ...props} = {}) {
     return {
-      'aria-props': on,
+      'aria-pressed': on,
       onClick: () => {
         onClick && onClick()
         toggle()
